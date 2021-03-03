@@ -2,7 +2,7 @@
 	include('fun.php');
 	if(!empty($_POST)){
 		if(empty($_POST['user'])){
-			echo "<script>alert('请输入姓名');window.history.back(1);</script>";
+			echo "<script>alert('请输入姓名2');window.history.back(1);</script>";
 			return false;
 		}
 		if(empty($_POST['age'])){
